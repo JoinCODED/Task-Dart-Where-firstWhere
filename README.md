@@ -1,5 +1,3 @@
-# Where Are The Kids 🧒🏻
-
 ### Where
 
 Write a function called `filterVisitors` that takes 2 arguments, a list of ages and a minimum age allowed to enter.
