@@ -1,33 +1,11 @@
-# TASK-NAME
+# Where Are The Kids 🧒🏻
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+### Where
 
-## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
+Write a function called `filterVisitors` that takes 2 arguments, a list of ages and a minimum age allowed to enter.
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+Return a list of all ages that are more than the minimum age.
 
-![screenshot](https://tenor.com/xNjE.gif)
+### FirstWhere
 
-
-### 🍋 The basic challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🌶 The Extreme challenge title 
-
-- Step 1
-- Step 2
-- Step 3
+Write a function called `odd` that takes a list of numbers and returns the first odd number.
