@@ -6,4 +6,8 @@ Return a list of all ages that are more than the minimum age.
 
 ### FirstWhere
 
-Write a function called `odd` that takes a list of numbers and returns the first odd number.
+Write a function called `findOdds` that takes a list of numbers and returns the first odd number.
+
+### 🍋 orElse
+
+Use the `orElse` named arguement with `FirstWhere` to return a message if no `odd` number is found.
