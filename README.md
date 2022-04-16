@@ -10,4 +10,4 @@ Write a function called `findOdds` that takes a list of numbers and returns the 
 
 ### 🍋 orElse
 
-Use the `orElse` named arguement with `FirstWhere` to return a message if no `odd` number is found.
+Use the `orElse` named arguement with `FirstWhere` to return a `0` if no `odd` number is found.
