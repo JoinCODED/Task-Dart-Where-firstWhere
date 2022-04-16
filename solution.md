@@ -62,14 +62,14 @@ List<int> filterVisitors(List<int> visitors,int age){
 
 ### FirstWhere
 
-1. Create a function names `odd` that returns an `int`:
+1. Create a function names `findOdds` that returns an `int`:
 
 ```dart
 void main() {
 
 }
 
-int odd(){
+findOdds odd(){
 
 }
 ```
@@ -81,7 +81,7 @@ void main() {
 
 }
 
-int odd(List<int> numbers){
+int findOdds(List<int> numbers){
 
 }
 ```
@@ -93,7 +93,7 @@ void main() {
 
 }
 
-int odd(List<int> numbers){
+int findOdds(List<int> numbers){
     numbers.firstWhere((number)=>);
 }
 ```
@@ -105,7 +105,7 @@ void main() {
 
 }
 
-int odd(List<int> numbers){
+int findOdds(List<int> numbers){
     numbers.firstWhere((number)=>number % 2 != 0);
 }
 ```
@@ -117,7 +117,17 @@ void main() {
 
 }
 
-int odd(List<int> numbers){
+int findOdds(List<int> numbers){
     return numbers.firstWhere((number)=>number % 2 != 0);
+}
+```
+
+### 🍋 orElse
+
+Use the `orElse` named arguement with `FirstWhere` to return a `0` if no `odd` number is found.
+
+```dart
+int findOdds(List<int> numbers){
+    return (numbers.firstWhere((number)=>number % 2 != 0, orElse: () => 0));
 }
 ```
